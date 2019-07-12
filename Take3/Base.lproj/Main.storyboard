@@ -23,9 +23,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <state key="normal" title="🐚"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Qn-XS-AW4"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Magic Conch" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ilb-zD-Udk">
-                                <rect key="frame" x="80" y="201" width="255" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Magic Conch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ilb-zD-Udk">
+                                <rect key="frame" x="80" y="231" width="255" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
